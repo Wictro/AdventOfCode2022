@@ -9,7 +9,7 @@ public class Main {
         File file = new File(fileName);
         BufferedReader reader = new BufferedReader(new FileReader(file));
 
-        UniqueFixedLengthString str = new UniqueFixedLengthString(4);
+        UniqueFixedLengthString str = new UniqueFixedLengthString(14);
 
         int index = -1;
         int lastCharacter;
@@ -62,3 +62,4 @@ public class Main {
         }
     }
 }
+
